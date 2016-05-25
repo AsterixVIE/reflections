@@ -1,0 +1,49 @@
+Git init
+*********************
+erstellt ein neues Repository
+--> in der Bash im richtigen Ordner git init ausführen
+
+Git Status
+*********************
+gibt den aktuellen Status ausführen
+
+
+Git add
+*********************
+Fügt ein File der Stageing Area hinzu. Das muss für jedes File einzeln gemacht werden. Sobald man fertig ist kann man ein commit machen.
+git add FILENAME
+
+git Status
+*********************
+Zeigt den aktuellen Status im Repository an.
+Man sieht welche Files seit dem letzten Commit neu hinzugekommen sind.
+
+
+Git DIFF Erweiterungen
+**********************
+
+git diff ohne argumente vergleicht das Working Directory und die Staging Area
+git diff --staged vergleicht die Staging Area und das aktuelleste Commit
+git diff commit1 commit2 ist die normale Funktion und vergleicht im Repository zwei Commits mit der ID
+
+
+Git commit
+***********************
+erstellt ein neues Commit mit der Erweiterung -m "Nachricht TEXT" kann man die Info schreiben, falls ohne muss man den Editor verwenden.
+
+Git Branch
+***********************
+erstellt eine neue Seitenversion
+--> mit git checkout kann man zwischen diesen Versionen springen
+
+Git Merge
+************************
+fügt Branches zusammen.
+git merge branch1 brach2
+z. B. git merge master feature
+
+TIPPS: git merge --abort   bricht den aktuellen merge ab
+
+
+
+
