@@ -1,0 +1,15 @@
+File Compare
+************
+
+Um zwei verschiedene Versionen zu vergleichen gibt es mehrere Möglichkeiten:
+
+On Board für Windows:
+
+In der cmd: FC
+Beispiel  C:\>FC file_a file_b
+
+On Board für Mac/Linux:
+
+Im Terminal Diff -u file_a file_b
+
+**********************************************
